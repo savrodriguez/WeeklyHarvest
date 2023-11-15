@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeeklyHarvest</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="path-to-bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</head>
+</head>
+<body>
+    <!--NAV-->
+    <nav class="navbar sticky-top bg-white">
+        <div class="container-fluid">
+            <div class="navbar-brand" style="font-size: 30px;">
+                <img src="./imgs/logoCap.png" width="150" height="160">
+                Weekly Harvest
+            </div>
+            
+            <ul class="nav justify-content-center me-4">
+                <li class="nav-item">
+                    <img src="./imgs/homeButton.png" width="80" height="80">
+                        <a class="nav-link active text-black-50" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./imgs/dinnerButton.png" width="80" height="80">
+                        <a class="nav-link text-black-50" href="dinners.html">Dinner</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./imgs/dessert2.png" width="80" height="80">
+                        <a class="nav-link text-black-50" href="desserts.html">Dessert</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger me-3" type="submit" color="danger">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--HEADER-->
+    <div class="container-fluid">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mt-5 fw-bold fs-1">
+                    Dinners
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto p-5">
+        <div class="recipe">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" style="width: 28rem;">
+                        <img src="./imgs/bolognese.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">Pasta Bolognese</h5>
+                        <p class="card-text">
+                            Prep 20 minutes <br>
+                            Cook 40 minutes <br>
+                            Total 1 hour <br>
+                            8 servings </p>
+                        </div>
+                            <div class="dropdown mt-3 mb-3 ps-3">
+                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                id="recipe-dropdown-2" data-bs-toggle="dropdown">
+                                Recipe
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="recipe-dropdown">
+                                    <li class="fw-bold">INGREDIENTS</li>
+                                    <li>
+                                        * 1 ½ tablespoons unsalted butter <br>
+                                        * 1 medium sweet onion, diced <br>
+                                        * 1 carrot, peeled and diced <br>
+                                        * 1 celery rib, diced <br>
+                                        * ¾ pound ground beef <br>
+                                        * ¾ pound ground pork <br>
+                                        * 4 ounces pancetta, diced <br>
+                                        * Kosher salt and freshly ground black pepper, to taste <br>
+                                        * 2 tablespoons tomato paste <br>
+                                        * 3 cloves garlic, minced <br>
+                                        * 2 teaspoons dried oregano <br>
+                                        * ¼ teaspoon crushed red pepper flakes <br>
+                                        * ⅛ teaspoon ground nutmeg <br>
+                                        * ⅛ teaspoon ground cinnamon <br>
+                                        * ¾ cups dry red wine <br>
+                                        * 1 cup whole milk <br>
+                                        * 1 (15-ounce) can crushed tomatoes <br>
+                                        * 2 tablespoons chopped fresh parsley leaves <br>
+                                        * 1 pound pappardelle pasta</li>
+                                    <li class="fw-bold">DIRECTIONS</li>
+                                    <li>
+                                        1. Melt butter in a large stockpot or Dutch oven over medium heat. Add onion, carrot and celery. Cook, stirring occasionally, until tender, about 3-4 minutes. <br>
+                                        2. Add ground beef, ground pork, pancetta, 1 teaspoon salt and 1/2 teaspoon pepper. Cook until browned, about 5-8 minutes, making sure to crumble the beef and pork as it cooks; drain excess fat. <br>
+                                        3. Stir in tomato paste, garlic, oregano, red pepper flakes, nutmeg and cinnamon until fragrant, about 1 minute. <br>
+                                        4. Stir in wine, scraping any browned bits from the bottom of the pot. <br>
+                                        6. Stir in milk. Bring to a boil; reduce heat and simmer until reduced, about 5 minutes. <br>
+                                        7. Stir in crushed tomatoes. Bring to boil; reduce heat and simmer, covered and stirring occasionally, until thickened and flavors have blended, about 20 minutes. <br>
+                                        8. Stir in parsley; season with salt and pepper, to taste. <br>
+                                        9. In a large pot of boiling salted water, cook pasta according to package instructions; drain well. <br>
+                                        10. Serve immediately with bolognese sauce.</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" style="width: 28rem;">
+                        <img src="./imgs/lasagna.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">Lasagna</h5>
+                        <p class="card-text">
+                            Prep 30 minutes <br>
+                            Cook 2 hours 45 minutes <br>
+                            Total 3 15 <br>
+                            12 servings</p>
+                        </div>
+                            <div class="dropdown mt-3 mb-3 ps-3">
+                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                id="recipe-dropdown-2" data-bs-toggle="dropdown">
+                                Recipe
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="recipe-dropdown">
+                                    <li class="fw-bold">INGREDIENTS</li>
+                                    <li>
+                                        * 1 pound sweet Italian sausage <br>
+                                        * ¾ pound lean ground beef <br>
+                                        * ½ cup minced onion <br>
+                                        * 2 cloves garlic, crushed <br>
+                                        * 1 (28 ounce) can crushed tomatoes <br>
+                                        * 2 (6.5 ounce) cans canned tomato sauce <br>
+                                        * 2 (6 ounce) cans tomato paste <br>
+                                        * ½ cup water <br>
+                                        * 2 tablespoons white sugar <br>
+                                        * 4 tablespoons chopped fresh parsley, divided <br>
+                                        * 1 ½ teaspoons dried basil leaves <br>
+                                        * 1 ½ teaspoons salt, divided, or to taste <br>
+                                        * 1 teaspoon Italian seasoning <br>
+                                        * ½ teaspoon fennel seeds <br>
+                                        * ¼ teaspoon ground black pepper <br>
+                                        * 12 lasagna noodles <br>
+                                        * 16 ounces ricotta cheese <br>
+                                        * 1 egg <br>
+                                        * ¾ pound mozzarella cheese, sliced <br>
+                                        * ¾ cup grated Parmesan cheese 
+                                    </li>
+                                    <li class="fw-bold">DIRECTIONS</li>
+                                    <li>
+                                        1. Gather all your ingredients. <br>
+                                        2. Cook sausage, ground beef, onion, and garlic in a Dutch oven over medium heat until well browned. <br>
+                                        3. Stir in crushed tomatoes, tomato sauce, tomato paste, and water. Season with sugar, 2 tablespoons parsley, basil, 1 teaspoon salt, Italian seasoning, fennel seeds, and pepper. Simmer, covered, for about 1 1/2 hours, stirring occasionally. <br>
+                                        4. Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water. <br>
+                                        5. In a mixing bowl, combine ricotta cheese with egg, remaining 2 tablespoons parsley, and 1/2 teaspoon salt. <br>
+                                        6. Preheat the oven to 375 degrees F (190 degrees C). <br>
+                                        7. To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with 1/2 of the ricotta cheese mixture. Top with 1/3 of the mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. <br>
+                                        8. Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray or make sure the foil does not touch the cheese. <br>
+                                        9. Bake in the preheated oven for 25 minutes. Remove the foil and bake for an additional 25 minutes. <br>
+                                        10. Rest lasagna for 15 minutes before serving. </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mx-auto p-5">
+        <div class="recipe">
+            <div class="row">
+                <div class="col-6">
+                    <div class="card" style="width: 28rem;">
+                        <img src="./imgs/mac.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">Baked Mac and Cheese</h5>
+                        <p class="card-text">Prep 20 minutes
+                            Cook 30 minutes <br>
+                            Total 50 minutes <br>
+                            12 servings <br>
+                            642 cals</p>
+                        </div>
+                            <div class="dropdown mt-3 mb-3 ps-3">
+                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                id="recipe-dropdown-2" data-bs-toggle="dropdown">
+                                Recipe
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="recipe-dropdown">
+                                    <li class="fw-bold">INGREDIENTS</li>
+                                    <li>
+                                        * 16 oz elbow macaroni, cooked (or other tubular pasta) <br>
+                                        * 1 tbsp extra virgin olive oil <br>
+                                        * 6 tbsp unsalted butter <br>
+                                        * 1/3 cup all purpose flour <br>
+                                        * 3 cups whole milk <br>
+                                        * 1 cup heavy whipping cream <br>
+                                        * 4 cups sharp cheddar cheese shredded <br>
+                                        * 2 cups Gruyere cheese shredded <br>
+                                        * salt and pepper to taste <br>
+                                        * 1 1/2 cups panko crumbs <br>
+                                        * 4 tbsp butter melted <br>
+                                        * 1/2 cup Parmesan cheese shredded <br>
+                                        * 1/4 tsp smoked paprika (or regular paprika)</li>
+                                    <li class="fw-bold">DIRECTIONS</li>
+                                    <li>
+                                        1. Preheat oven to 350F. Lightly grease a large 3 qt or 4 qt baking dish and set aside.Combine shredded cheeses in a large bowl and set aside. <br>
+                                        2. Cook the pasta one minute shy of al dente according to the package instructions. Remove from heat, drain, and place in a large bowl. <br>
+                                        3. Drizzle pasta with olive oil and stir to coat pasta. Set aside to cool while preparing cheese sauce. <br>
+                                        4. Melt butter in a deep saucepan, dutch oven, or stock pot. <br>
+                                        5. Whisk in flour over medium heat and continue whisking for about 1 minute until bubbly and golden. <br>
+                                        6. Gradually whisk in the milk and heavy cream until nice and smooth. Continue whisking until you see bubbles on the surface and then continue cooking and whisking for another 2 minutes. Whisk in salt and pepper. <br>
+                                        7. Add two cups of shredded cheese and whisk until smooth. Add another two cups of shredded cheese and continue whisking until creamy and smooth. Sauce should be nice and thick. <br>
+                                        8. Stir in the cooled pasta until combined and pasta is fully coated with the cheese sauce. <br>
+                                        9. Pour half of the mac and cheese into the prepared baking dish. Top with remaining 2 cups of shredded cheese and then the remaining mac and cheese. <br>
+                                        10. In a small bowl, combine panko crumbs, Parmesan cheese, melted butter and paprika. Sprinkle over the top and bake until bubbly and golden brown, about 30 minutes. Serve immediately.</li>
+                                    </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="card" style="width: 28rem;">
+                        <img src="./imgs/tomato-soup.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title fw-bold">Tomato Soup</h5>
+                        <p class="card-text">
+                            Prep 15 minutes <br>
+                            Cook 30 minutes <br>
+                            Total 45 minutes</p>
+                        </div>
+                            <div class="dropdown mt-3 mb-3 ps-3">
+                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                id="recipe-dropdown-2" data-bs-toggle="dropdown">
+                                Recipe
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="recipe-dropdown">
+                                    <li class="fw-bold">INGREDIENTS</li>
+                                    <li>
+                                        * Butter. <br>
+                                        * Onion & garlic. <br>
+                                        * Flour. <br>
+                                        * Chicken broth. <br>
+                                        * Tomatoes. <br>
+                                        * Basil. <br>
+                                        * Sugar <br>
+                                        * Cream. <br>
+                                        * Baking soda</li>
+                                    <li class="fw-bold">DIRECTIONS</li>
+                                    <li>
+                                        1. Melt butter in a large, non-reactive pot over medium heat. Add onions and cook until softened and translucent, stirring often. Add garlic and cook until <br>
+                                        2. Evenly sprinkle flour over garlic and onions and cook, stirring constantly, until smooth. Cook for another 30-60 seconds before adding the tomatoes (including any juices!). <br>
+                                        3. Crush the tomatoes with your spoon until no large chunks remain (alternatively you can hand-crush your tomatoes before adding, but crushing in the pot works just as well!). Scrape the bottom and sides of the pot to make sure you didn’t miss any. <br>
+                                        4. Stir in seasonings and bring your soup to a boil. Once boiling, reduce heat and simmer for 20-30 minutes uncovered. <br>
+                                        5. Use an immersion blender to puree the soup until smooth. <br>
+                                        6. Add cream and baking soda. The soup will foam a bit after you add the baking soda, this is normal! Stir until color is uniform (it will lighten in color slightly) and soup is cohesive. Check seasonings by taste-testing before serving.</li>
+                                    </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!--FOOTER-->
+        <footer class="mt-5">
+            <div class="bg-dark p-5 text-white">
+                &copy;2023 WeeklyHarvest Inc
+            </div>
+        </footer>
+
+
+</body>
+</html>

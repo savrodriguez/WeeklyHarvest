@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeeklyHarvest</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="path-to-bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</head>
+</head>
+<body>
+    <!--NAV-->
+    <nav class="navbar sticky-top bg-white">
+        <div class="container-fluid">
+            <div class="navbar-brand fw-bold" style="font-size: 30px;">
+                <img src="./imgs/logoCap.png" width="170" height="183">
+                WeeklyHarvest
+            </div>
+            
+            <ul class="nav justify-content-center me-4">
+                <li class="nav-item">
+                    <img src="./imgs/homeButton.png" width="80" height="80">
+                        <a class="nav-link active text-black-50" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./imgs/dinnerButton.png" width="80" height="80">
+                        <a class="nav-link text-black-50" href="dinners.html">Dinner</a>
+                </li>
+                <li class="nav-item">
+                    <img src="./imgs/dessert2.png" width="80" height="80">
+                        <a class="nav-link text-black-50" href="desserts.html">Dessert</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-danger me-3" type="submit" color="danger">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--HEADER 1-->
+    <div class="container-fluid">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mt-5 fw-bold fs-1" style="font-size: 60px;">
+                    Holiday Favorites
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FAVORITES-->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col">
+                <div class="card fw-bold text-grey">
+                    <img src="./imgs/pie.jpeg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                    <p class="card-text display-1 fw-bold text-xxl-center">Apple Pie</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-4">
+                <div class="card fw-bold fs-1 text-grey">
+                    <img src="./imgs/crinkle.jpeg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                    <p class="card-text"><small>Crinkle Top</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card fw-bold fs-1 text-grey">
+                    <img src="./imgs/pumpkin.jpeg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                    <p class="card-text"><small>Pumpkin Pie</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card fw-bold fs-1 text-grey">
+                    <img src="./imgs/tomato-soup.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                    <p class="card-text"><small>Tomato Soup</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--HEADER 2-->
+    <div class="container my-5">
+        <div class="container">
+            <div class="col mt-n1 fw-bold">
+                <div class="monthly">
+                    Monthly Cocktails
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!--MIXES-->
+    <div class="mx-auto p-2" style="width: 1500px;">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card" id="ginger">
+                    <img src="./imgs/tail1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title fw-bold">Gingerbread Martini</h5>
+                        <div class="dropdown mt-3">
+                            <button class="btn btn-danger dropdown-toggle" type="button"
+                            id="recipe-dropdown" data-bs-toggle="dropdown">
+                            Recipe
+                            </button>
+                            <ul class="dropdown-menu p-2" aria-labelledby="recipe-dropdown">
+                                <li class="fw-bold p-2">GINGERBREAD SIMPLE SYRUP</li>
+                                <li>
+                                    * 2 tbsp. coarsely grated peeled ginger <br>
+                                    * 2 (3") cinnamon sticks <br>
+                                    * 4 whole cloves <br>
+                                    * 3/4 c. granulated sugar</li>
+                                <li class="fw-bold p-2">COCKTAIL</li>
+                                <li>
+                                    * 1/2 c. crushed gingerbread cookies <br>
+                                    * Ice <br>
+                                    * 2 tbsp. vanilla ice cream <br>
+                                    * 1 oz. Baileys Irish Cream <br>
+                                    * 1 oz. vodka <br>
+                                    * 1/2 oz. Kahlúa <br>
+                                    * Whipped cream, ground cinnamon, and gingerbread people, for serving
+                                </li>
+                                <li class="fw-bold p-2">DIRECTIONS</li>
+                                <li class="fw-bold p-2">SYRUP</li>
+                                <li>
+                                        Step 1:In a small saucepan over medium-high heat, bring ginger, cinnamon, cloves, and 1 1/2 cups water to a boil. Reduce heat to medium and cook, stirring occasionally, until liquid is reduced by about half, about 20 minutes. <br>
+                                        Step 2:Add sugar and stir until dissolved. Let cool about 10 minutes. Strain sugar mixture through a fine-mesh sieve into a small bowl. <br>
+                                        Step 3:Make Ahead: Syrup can be made 1 month ahead. Store in an airtight container and refrigerate. <br>
+                                <li class="fw-bold">COCKTAIL</li>
+                                <li>
+                                        Step 1:Place crushed cookies on a small shallow plate. Pour some gingerbread syrup onto another shallow plate. Dip rim of a martini glass into gingerbread syrup, then dip into cookies to coat. <br>
+                                        Step 2:In a cocktail shaker filled with ice, combine ice cream, Baileys, vodka, Kahlúa, and 1/2 oz. gingerbread syrup. Cover and vigorously shake until outside of shaker is very frosty, about 20 seconds. <br>
+                                        Step 3:Strain into prepared glass. Garnish with a generous dollop of whipped cream and sprinkle with cinnamon. Gently place a gingerbread person in cocktail. 
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="./imgs/tail2.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Cranberry Mimosas</h5>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                id="recipe-dropdown-2" data-bs-toggle="dropdown">
+                                Recipe
+                                </button>
+                                <ul class="dropdown-menu p-2" aria-labelledby="recipe-dropdown">
+                                    <li class="fw-bold p-2">INGREDIENTS</li>
+                                    <li>
+                                        * 1 lime, halved <br>
+                                        * 2 tbsp. sugar <br>
+                                        * 1 c. sweetened cranberry juice <br>
+                                        * 1 bottle champagne <br>
+                                        * 12 fresh cranberries <br>
+                                        * 4 small sprigs fresh rosemary</li>
+                                    <li class="fw-bold p-2">DIRECTIONS</li>
+                                    <li>
+                                        Step 1:Line champagne flutes with lime and dip in sugar. Pour 1/4 cup cranberry juice into each glass and top with <br>
+                                        Step 2:Use a toothpick to poke a hole through cranberries. Thread rosemary skewer through cranberries and garnish mimosas.</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="./imgs/tail4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Big Apple Manhattan</h5>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                id="recipe-dropdown-3" data-bs-toggle="dropdown">
+                                Recipe
+                                </button>
+                                <ul class="dropdown-menu p-2" aria-labelledby="recipe-dropdown">
+                                    <li class="fw-bold p-2">INGREDIENTS</li>
+                                    <li>
+                                        * Ice <br>
+                                        * 2 oz. rye whiskey <br>
+                                        * 1 oz. apple brandy <br>
+                                        * 2 dashes angostura bitters <br>
+                                        * Apple slice, for garnish</li>
+                                    <li class="fw-bold p-2">DIRECTIONS</li>
+                                    <li>
+                                        Step 1:Fill a pint glass or cocktail shaker with ice. Add whiskey, brandy, and bitters, then stir. <br>
+                                        Step 2:Strain into a glass and garnish with an apple slice.</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <img src="./imgs/tail3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Campfire Mules</h5>
+                            <div class="dropdown mt-3">
+                                <button class="btn btn-danger dropdown-toggle" type="button"
+                                id="recipe-dropdown-4" data-bs-toggle="dropdown">
+                                    Recipe
+                                </button>
+                                <ul class="dropdown-menu p-2" aria-labelledby="recipe-dropdown">
+                                    <li class="fw-bold p-2">INGREDIENTS</li>
+                                    <li>
+                                        * Ice <br>
+                                        * 1 1/2 oz. smoked bourbon or whiskey <br>
+                                        * 1/2 oz. fresh lemon juice <br> 
+                                        * 1/4 oz. pure maple syrup <br>
+                                        * 4 oz. ginger beer <br>
+                                        * Marshmallows, for serving (optional)</li>
+                                    <li class="fw-bold p-2">DIRECTIONS</li>
+                                    <li>
+                                        Step 1:Fill a rocks or wine glass with ice. Add bourbon, lemon juice, and syrup and gently stir to combine. Top off with beer and stir again to combine. <br> 
+                                        Step 2:Toast marshmallows (if using) with a blowtorch or directly over the flame of a gas stove. Thread marshmallows onto a stick and garnish glass.</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-grid gap-2 col-6 mx-auto mt-3" style="border-radius: 8px;">
+        <a class="btn btn-success" href="./newsletter.html" type="button">Join Our Newsletter!</a>
+    </div>
+    
+    <!--FOOTER-->
+    <footer class="mt-5">
+        <div class="bg-dark p-5 text-white">
+            &copy;2023 WeeklyHarvest Inc
+        </div>
+    </footer>
+    
+
+
+
+
+</body>
+</html>
